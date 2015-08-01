@@ -740,11 +740,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fitType: 0
-  targetPixelHeight: 319
+  targetPixelHeight: 639
   parallaxLayerCount: 10
-  cameraZoom: 2
+  cameraZoom: 1
   pixelatedPostProcessing: 1
-  heightError: 1
+  heightError: 0
   showGizmos: 0
   pixelZoomMode: 0
 --- !u!81 &452014951

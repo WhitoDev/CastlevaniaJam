@@ -17,6 +17,10 @@ public class EnemyController : MonoBehaviour {
     int hsThrowBone = Animator.StringToHash("Base Layer.Skeleton_Throw");
     #endregion
 
+    #region Triggers
+    bool throwBoneTrigger;
+    #endregion
+
     [ExecuteInEditMode]
 	void Start () 
     {
@@ -35,8 +39,8 @@ public class EnemyController : MonoBehaviour {
             if(hsState == hsIdle)
             {
                 float xScale =  Mathf.Sign(this.transform.position.x - GameManager.Instance.Player.transform.position.x);
-                transform.localScale = new Vector3(xScale, transform.localScale.y, transform.localScale.z);
-                ThrowBone();
+                transform.localScale = new Vector3(xScale, transform.localScale.y, transform.localScale.z);                
+                StartCoroutine(ThrowBone());
             }
 
 
@@ -46,7 +50,7 @@ public class EnemyController : MonoBehaviour {
 
     void SetAnimations()
     {
-        
+        animatorController.SetBool("throwBoneTrigger", throwBoneTrigger); throwBoneTrigger = false;
     }
 
     void CheckPlayerProximity()
@@ -54,10 +58,14 @@ public class EnemyController : MonoBehaviour {
         xDistanceToPlayer = Mathf.Abs( transform.position.x - GameManager.Instance.Player.transform.position.x);
     }
 
-    void ThrowBone()
+    IEnumerator ThrowBone()
     {
+        throwBoneTrigger = true;
+        yield return new WaitForSeconds(0.2f);
         GameObject bone = Instantiate(bullet, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity) as GameObject;
         bone.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f * -transform.localScale.x, 100f));
+        bone.GetComponent<Rigidbody2D>().AddTorque(5f);
         Destroy(bone, 2f);
+        yield break;
     }
 }
