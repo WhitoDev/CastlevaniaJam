@@ -3,8 +3,9 @@ using System.Collections;
 
 public class EnemyController : MonoBehaviour {
 
-    public Animator animatorController;
+    private Animator animatorController;
     public GameObject bullet;
+    public GameObject destroyEffect;
     public int totalHealth = 2;
     public int health = 2;
 
@@ -35,7 +36,9 @@ public class EnemyController : MonoBehaviour {
             {
                 float xScale =  Mathf.Sign(this.transform.position.x - GameManager.Instance.Player.transform.position.x);
                 transform.localScale = new Vector3(xScale, transform.localScale.y, transform.localScale.z);
+                ThrowBone();
             }
+
 
         }
         SetAnimations();
@@ -51,4 +54,10 @@ public class EnemyController : MonoBehaviour {
         xDistanceToPlayer = Mathf.Abs( transform.position.x - GameManager.Instance.Player.transform.position.x);
     }
 
+    void ThrowBone()
+    {
+        GameObject bone = Instantiate(bullet, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity) as GameObject;
+        bone.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f * -transform.localScale.x, 100f));
+        Destroy(bone, 2f);
+    }
 }
