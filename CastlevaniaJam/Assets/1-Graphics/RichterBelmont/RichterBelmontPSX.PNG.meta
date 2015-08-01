@@ -1,0 +1,1936 @@
+fileFormatVersion: 2
+guid: 74a12261217274142a3d43d6ee733dd4
+timeCreated: 1434581937
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RichterBelmontPSX_0
+    21300002: RichterBelmontPSX_1
+    21300004: RichterBelmontPSX_2
+    21300006: RichterBelmontPSX_3
+    21300008: RichterBelmontPSX_4
+    21300010: RichterBelmontPSX_5
+    21300012: RichterBelmontPSX_6
+    21300014: RichterBelmontPSX_7
+    21300016: RichterBelmontPSX_8
+    21300018: RichterBelmontPSX_9
+    21300020: RichterBelmontPSX_10
+    21300022: RichterBelmontPSX_11
+    21300024: RichterBelmontPSX_12
+    21300026: RichterBelmontPSX_13
+    21300028: RichterBelmontPSX_14
+    21300030: RichterBelmontPSX_15
+    21300032: RichterBelmontPSX_16
+    21300034: RichterBelmontPSX_17
+    21300036: RichterBelmontPSX_18
+    21300038: RichterBelmontPSX_19
+    21300040: RichterBelmontPSX_20
+    21300042: RichterBelmontPSX_21
+    21300044: RichterBelmontPSX_22
+    21300046: RichterBelmontPSX_23
+    21300048: RichterBelmontPSX_24
+    21300050: RichterBelmontPSX_25
+    21300052: RichterBelmontPSX_26
+    21300054: RichterBelmontPSX_27
+    21300056: RichterBelmontPSX_28
+    21300058: RichterBelmontPSX_29
+    21300060: RichterBelmontPSX_30
+    21300062: RichterBelmontPSX_31
+    21300064: RichterBelmontPSX_32
+    21300066: RichterBelmontPSX_33
+    21300068: RichterBelmontPSX_34
+    21300070: RichterBelmontPSX_35
+    21300072: RichterBelmontPSX_36
+    21300074: RichterBelmontPSX_37
+    21300076: RichterBelmontPSX_38
+    21300078: RichterBelmontPSX_39
+    21300080: RichterBelmontPSX_40
+    21300082: RichterBelmontPSX_41
+    21300084: RichterBelmontPSX_42
+    21300086: RichterBelmontPSX_43
+    21300088: RichterBelmontPSX_44
+    21300090: RichterBelmontPSX_45
+    21300092: RichterBelmontPSX_46
+    21300094: RichterBelmontPSX_47
+    21300096: RichterBelmontPSX_48
+    21300098: RichterBelmontPSX_49
+    21300100: RichterBelmontPSX_50
+    21300102: RichterBelmontPSX_51
+    21300104: RichterBelmontPSX_52
+    21300106: RichterBelmontPSX_53
+    21300108: RichterBelmontPSX_54
+    21300110: RichterBelmontPSX_55
+    21300112: RichterBelmontPSX_56
+    21300114: RichterBelmontPSX_57
+    21300116: RichterBelmontPSX_58
+    21300118: RichterBelmontPSX_59
+    21300120: RichterBelmontPSX_60
+    21300122: RichterBelmontPSX_61
+    21300124: RichterBelmontPSX_62
+    21300126: RichterBelmontPSX_63
+    21300128: RichterBelmontPSX_64
+    21300130: RichterBelmontPSX_65
+    21300132: RichterBelmontPSX_66
+    21300134: RichterBelmontPSX_67
+    21300136: RichterBelmontPSX_68
+    21300138: RichterBelmontPSX_69
+    21300140: RichterBelmontPSX_70
+    21300142: RichterBelmontPSX_71
+    21300144: RichterBelmontPSX_72
+    21300146: RichterBelmontPSX_73
+    21300148: RichterBelmontPSX_74
+    21300150: RichterBelmontPSX_75
+    21300152: RichterBelmontPSX_76
+    21300154: RichterBelmontPSX_77
+    21300156: RichterBelmontPSX_78
+    21300158: RichterBelmontPSX_79
+    21300160: RichterBelmontPSX_80
+    21300162: RichterBelmontPSX_81
+    21300164: RichterBelmontPSX_82
+    21300166: RichterBelmontPSX_83
+    21300168: RichterBelmontPSX_84
+    21300170: RichterBelmontPSX_85
+    21300172: RichterBelmontPSX_86
+    21300174: RichterBelmontPSX_87
+    21300176: RichterBelmontPSX_88
+    21300178: RichterBelmontPSX_89
+    21300180: RichterBelmontPSX_90
+    21300182: RichterBelmontPSX_91
+    21300184: RichterBelmontPSX_92
+    21300186: RichterBelmontPSX_93
+    21300188: RichterBelmontPSX_94
+    21300190: RichterBelmontPSX_95
+    21300192: RichterBelmontPSX_96
+    21300194: RichterBelmontPSX_97
+    21300196: RichterBelmontPSX_98
+    21300198: RichterBelmontPSX_99
+    21300200: RichterBelmontPSX_100
+    21300202: RichterBelmontPSX_101
+    21300204: RichterBelmontPSX_102
+    21300206: RichterBelmontPSX_103
+    21300208: RichterBelmontPSX_104
+    21300210: RichterBelmontPSX_105
+    21300212: RichterBelmontPSX_106
+    21300214: RichterBelmontPSX_107
+    21300216: RichterBelmontPSX_108
+    21300218: RichterBelmontPSX_109
+    21300220: RichterBelmontPSX_110
+    21300222: RichterBelmontPSX_111
+    21300224: RichterBelmontPSX_112
+    21300226: RichterBelmontPSX_113
+    21300228: RichterBelmontPSX_114
+    21300230: RichterBelmontPSX_115
+    21300232: RichterBelmontPSX_116
+    21300234: RichterBelmontPSX_117
+    21300236: RichterBelmontPSX_118
+    21300238: RichterBelmontPSX_119
+    21300240: RichterBelmontPSX_120
+    21300242: RichterBelmontPSX_121
+    21300244: RichterBelmontPSX_122
+    21300246: RichterBelmontPSX_123
+    21300248: RichterBelmontPSX_124
+    21300250: RichterBelmontPSX_125
+    21300252: RichterBelmontPSX_126
+    21300254: RichterBelmontPSX_127
+    21300256: RichterBelmontPSX_128
+    21300258: RichterBelmontPSX_129
+    21300260: RichterBelmontPSX_130
+    21300262: RichterBelmontPSX_131
+    21300264: RichterBelmontPSX_132
+    21300266: RichterBelmontPSX_133
+    21300268: RichterBelmontPSX_134
+    21300270: RichterBelmontPSX_135
+    21300272: RichterBelmontPSX_136
+    21300274: RichterBelmontPSX_137
+    21300276: RichterBelmontPSX_138
+    21300278: RichterBelmontPSX_139
+    21300280: RichterBelmontPSX_140
+    21300282: RichterBelmontPSX_141
+    21300284: RichterBelmontPSX_142
+    21300286: RichterBelmontPSX_143
+    21300288: RichterBelmontPSX_144
+    21300290: RichterBelmontPSX_145
+    21300292: RichterBelmontPSX_146
+    21300294: RichterBelmontPSX_147
+    21300296: RichterBelmontPSX_148
+    21300298: RichterBelmontPSX_149
+    21300300: RichterBelmontPSX_150
+    21300302: RichterBelmontPSX_151
+    21300304: RichterBelmontPSX_152
+    21300306: RichterBelmontPSX_153
+    21300308: RichterBelmontPSX_154
+    21300310: RichterBelmontPSX_155
+    21300312: RichterBelmontPSX_156
+    21300314: RichterBelmontPSX_157
+    21300316: RichterBelmontPSX_158
+    21300318: RichterBelmontPSX_159
+    21300320: RichterBelmontPSX_160
+    21300322: RichterBelmontPSX_161
+    21300324: RichterBelmontPSX_162
+    21300326: RichterBelmontPSX_163
+    21300328: RichterBelmontPSX_164
+    21300330: RichterBelmontPSX_165
+    21300332: RichterBelmontPSX_166
+    21300334: RichterBelmontPSX_167
+    21300336: RichterBelmontPSX_168
+    21300338: RichterBelmontPSX_169
+    21300340: RichterBelmontPSX_170
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RichterBelmontPSX_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1197
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1197
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1197
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1197
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1197
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1197
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1197
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1145
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1145
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_9
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1145
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1145
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1145
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1145
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1145
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1145
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1093
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1093
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1093
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_18
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1093
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1093
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1093
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1093
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_22
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1093
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1052
+        width: 22
+        height: 40
+      alignment: 9
+      pivot: {x: .5, y: .529999971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1052
+        width: 23
+        height: 40
+      alignment: 9
+      pivot: {x: .5, y: .529999971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1052
+        width: 23
+        height: 40
+      alignment: 9
+      pivot: {x: .5, y: .529999971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 998
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 998
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_28
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 998
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 998
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 998
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 938
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 938
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_33
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 938
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 938
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 938
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 890
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 890
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_38
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 890
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_39
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 890
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 890
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 890
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_42
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 890
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 842
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_44
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 842
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 842
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_46
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 842
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_47
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 842
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_48
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 842
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_49
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 842
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_50
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 842
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_51
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 842
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 768
+        width: 51
+        height: 43
+      alignment: 9
+      pivot: {x: .790000021, y: .50999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_53
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 769
+        width: 54
+        height: 43
+      alignment: 9
+      pivot: {x: .805000007, y: .50999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_54
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 769
+        width: 57
+        height: 43
+      alignment: 9
+      pivot: {x: .819999993, y: .50999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_55
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 768
+        width: 58
+        height: 43
+      alignment: 9
+      pivot: {x: .819999993, y: .50999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_56
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 768
+        width: 48
+        height: 49
+      alignment: 9
+      pivot: {x: .730000019, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_57
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 768
+        width: 46
+        height: 50
+      alignment: 9
+      pivot: {x: .699999988, y: .439999998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_58
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 768
+        width: 45
+        height: 56
+      alignment: 9
+      pivot: {x: .469999999, y: .395000011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_59
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 768
+        width: 55
+        height: 53
+      alignment: 9
+      pivot: {x: .239999995, y: .414999992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_60
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 769
+        width: 69
+        height: 40
+      alignment: 9
+      pivot: {x: .174999997, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_61
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 769
+        width: 74
+        height: 40
+      alignment: 9
+      pivot: {x: .159999996, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_62
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 769
+        width: 76
+        height: 40
+      alignment: 9
+      pivot: {x: .159999996, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_63
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 768
+        width: 77
+        height: 40
+      alignment: 9
+      pivot: {x: .155000001, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_64
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 767
+        width: 78
+        height: 40
+      alignment: 9
+      pivot: {x: .155000001, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_65
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 768
+        width: 78
+        height: 40
+      alignment: 9
+      pivot: {x: .155000001, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_66
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 765
+        width: 81
+        height: 40
+      alignment: 9
+      pivot: {x: .150000006, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_67
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 765
+        width: 81
+        height: 40
+      alignment: 9
+      pivot: {x: .150000006, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_68
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 765
+        width: 81
+        height: 40
+      alignment: 9
+      pivot: {x: .150000006, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_69
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 765
+        width: 81
+        height: 40
+      alignment: 9
+      pivot: {x: .150000006, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 687
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_71
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 687
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_72
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 687
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_73
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 687
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 687
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_75
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 687
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_76
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 687
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_77
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 687
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_78
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 688
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_79
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 688
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_80
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 688
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_81
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 688
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_82
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 688
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_83
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 688
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_84
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 688
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_85
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 688
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_86
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 688
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_87
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 688
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_88
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 688
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_89
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 688
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_90
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 688
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_91
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 688
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_92
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 634
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_93
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 634
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_94
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 634
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_95
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 634
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_96
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 634
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_97
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 634
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_98
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 634
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_99
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 634
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_100
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 634
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_101
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 587
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_102
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 587
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 587
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_104
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 587
+        width: 52
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_105
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 587
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_106
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 587
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_107
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 587
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_108
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 587
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_109
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 587
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_110
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 534
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_111
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 534
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_112
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 534
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_113
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 534
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_114
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 534
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_115
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 534
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_116
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 465
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_117
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 465
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_118
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 465
+        width: 21
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_119
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 465
+        width: 21
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_120
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 446
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_121
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 445
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_122
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 397
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 397
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_124
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 397
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_125
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 397
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_126
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 429
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_127
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 429
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_128
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 397
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_129
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 411
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_130
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 411
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_131
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 406
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_132
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 397
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_133
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 398
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_134
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 329
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_135
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 329
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_136
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 329
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_137
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 329
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_138
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 280
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_139
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 280
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_140
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 280
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_141
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 225
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_142
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 225
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_143
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 225
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_144
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 225
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_145
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 172
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 172
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_147
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 123
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_148
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 123
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_149
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 123
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_150
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 123
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_151
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 123
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_152
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 123
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_153
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 123
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_154
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 123
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_155
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 123
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_156
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 123
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_157
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 123
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_158
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 123
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_159
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 123
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_160
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 66
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_161
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 66
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_162
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 66
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_163
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 66
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_164
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 66
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_165
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_166
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_167
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 5
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_168
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 5
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_169
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 5
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterBelmontPSX_170
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 5
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
