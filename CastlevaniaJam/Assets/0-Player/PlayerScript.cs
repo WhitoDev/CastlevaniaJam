@@ -56,7 +56,7 @@ public class PlayerScript : MonoBehaviour
 
     #region AnimatorHashes
 
-    int hsIdle = Animator.StringToHash("Base Layer Layer.Idle");
+    int hsIdle = Animator.StringToHash("Base Layer.Idle");
     int hsWalking = Animator.StringToHash("Base Layer.Walking");
     int hsCrouch_Down = Animator.StringToHash("Base Layer.Crouch_Down");
     int hsCrouch_Up = Animator.StringToHash("Base Layer.Crouch_Up");
