@@ -5,7 +5,7 @@ public class EnemyController : MonoBehaviour {
 
     private Animator animatorController;
     public GameObject bullet;
-    public GameObject destroyEffect;
+    public ParticleSystem destroyEffect;
     public int totalHealth = 2;
     public int health = 2;
 
@@ -67,5 +67,20 @@ public class EnemyController : MonoBehaviour {
         bone.GetComponent<Rigidbody2D>().AddTorque(5f);
         Destroy(bone, 2f);
         yield break;
+    }
+
+    void TakeDamage()
+    {
+
+        destroyEffect.startSpeed = Mathf.Abs(destroyEffect.startSpeed) * transform.localScale.x;
+        destroyEffect.Emit(3);
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.tag == "PlayerWeapon")
+        {
+            TakeDamage();
+        }
     }
 }

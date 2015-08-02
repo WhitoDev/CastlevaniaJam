@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: aa649903a3369df48bc6f95586f4c262
-timeCreated: 1438038556
+timeCreated: 1438551791
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -119,8 +119,8 @@ TextureImporter:
         y: 119
         width: 29
         height: 36
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .699999988, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpriteSheet_5
       rect:
@@ -130,7 +130,7 @@ TextureImporter:
         width: 29
         height: 36
       alignment: 9
-      pivot: {x: .529999971, y: .5}
+      pivot: {x: .75, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpriteSheet_6
       rect:
@@ -170,7 +170,7 @@ TextureImporter:
         width: 21
         height: 45
       alignment: 9
-      pivot: {x: .50999999, y: .400000006}
+      pivot: {x: .75, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpriteSheet_10
       rect:
@@ -180,7 +180,7 @@ TextureImporter:
         width: 21
         height: 45
       alignment: 9
-      pivot: {x: .50999999, y: .400000006}
+      pivot: {x: .720000029, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpriteSheet_11
       rect:
@@ -190,7 +190,7 @@ TextureImporter:
         width: 30
         height: 45
       alignment: 9
-      pivot: {x: .5, y: .400000006}
+      pivot: {x: .689999998, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpriteSheet_12
       rect:
@@ -200,7 +200,7 @@ TextureImporter:
         width: 30
         height: 45
       alignment: 9
-      pivot: {x: .540000021, y: .400000006}
+      pivot: {x: .699999988, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpriteSheet_13
       rect:
@@ -210,7 +210,7 @@ TextureImporter:
         width: 29
         height: 45
       alignment: 9
-      pivot: {x: .479999989, y: .400000006}
+      pivot: {x: .649999976, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpriteSheet_14
       rect:
@@ -220,7 +220,7 @@ TextureImporter:
         width: 29
         height: 45
       alignment: 9
-      pivot: {x: .5, y: .400000006}
+      pivot: {x: .660000026, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpriteSheet_15
       rect:
