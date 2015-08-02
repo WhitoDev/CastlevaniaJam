@@ -62,7 +62,7 @@ public class EnemyController : MonoBehaviour {
     {
         throwBoneTrigger = true;
         yield return new WaitForSeconds(0.2f);
-        GameObject bone = Instantiate(bullet, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity) as GameObject;
+        GameObject bone = Instantiate(bullet, transform.position + new Vector3(0, 1f, 0), Quaternion.identity) as GameObject;
         bone.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f * -transform.localScale.x, 100f));
         bone.GetComponent<Rigidbody2D>().AddTorque(5f);
         Destroy(bone, 2f);

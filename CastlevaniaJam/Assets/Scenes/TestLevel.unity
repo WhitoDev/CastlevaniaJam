@@ -740,11 +740,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fitType: 0
-  targetPixelHeight: 639
+  targetPixelHeight: 319
   parallaxLayerCount: 10
-  cameraZoom: 1
+  cameraZoom: 2
   pixelatedPostProcessing: 1
-  heightError: 0
+  heightError: 1
   showGizmos: 0
   pixelZoomMode: 0
 --- !u!81 &452014951
@@ -3032,7 +3032,7 @@ GameObject:
   - 114: {fileID: 2124559071}
   m_Layer: 9
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
