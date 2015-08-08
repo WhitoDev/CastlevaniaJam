@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SpriteShadowNormalMap
+  m_Name: EnemyHurt
   m_Shader: {fileID: 4800000, guid: 221c7c38f96cebc4d966945118cd91f8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -27,7 +27,7 @@ Material:
           name: _BumpMap
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 10, y: 10}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -134,7 +134,7 @@ Material:
       data:
         first:
           name: speed
-        second: 0
+        second: 200
     m_Colors:
       data:
         first:

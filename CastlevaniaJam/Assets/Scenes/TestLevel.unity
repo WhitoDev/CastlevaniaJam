@@ -1515,6 +1515,8 @@ MonoBehaviour:
   destroyEffect: {fileID: 2142536789}
   totalHealth: 2
   health: 2
+  normalMaterial: {fileID: 2100000, guid: d3f499f6d891b404cadb0370568d6053, type: 2}
+  gettingHitMaterial: {fileID: 2100000, guid: bcc727b0ef4f4684faf59213699e4fc6, type: 2}
 --- !u!4 &858969538
 Transform:
   m_ObjectHideFlags: 0

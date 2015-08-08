@@ -9,6 +9,9 @@ public class EnemyController : MonoBehaviour {
     public int totalHealth = 2;
     public int health = 2;
 
+    public Material normalMaterial;
+    public Material gettingHitMaterial;
+
     private bool inAggroRange;
     private bool gotHit;
 
@@ -35,7 +38,7 @@ public class EnemyController : MonoBehaviour {
         hsState = animatorController.GetCurrentAnimatorStateInfo(0).fullPathHash;
         if(gotHit)
         {
-            TakeDamage();
+            StartCoroutine(TakeDamage());
         }
 
         if (hsState == hsIdle && inAggroRange)
@@ -64,11 +67,16 @@ public class EnemyController : MonoBehaviour {
         yield break;
     }
 
-    void TakeDamage()
+    IEnumerator TakeDamage()
     {
-
+        SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
+        sr.material = gettingHitMaterial;
         destroyEffect.startSpeed = Mathf.Abs(destroyEffect.startSpeed) * transform.localScale.x;
         destroyEffect.Emit(3);
+        yield return new WaitForSeconds(0.3f);
+        sr.material = normalMaterial;
+        gotHit = false;
+        yield break;
     }
 
     void ResetTriggers()
@@ -93,7 +101,8 @@ public class EnemyController : MonoBehaviour {
     {
         if (gameObjName == "Sprite")
         {
-            gotHit = true;
+            if(!gotHit)
+                gotHit = true;
         }
     }
 }

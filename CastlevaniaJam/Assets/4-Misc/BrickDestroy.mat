@@ -134,7 +134,7 @@ Material:
       data:
         first:
           name: speed
-        second: 15
+        second: 0
     m_Colors:
       data:
         first:

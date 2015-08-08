@@ -61,7 +61,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 		void surf (Input IN, inout SurfaceOutput o)
 		{
 			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * IN.color;
-			o.Albedo = c.rgb;
+			o.Albedo = c.rgb * (float3(1.0,1.0,1.0) + (speed * float3(0.0, -sin(_Time.w * speed), -cos(_Time.w * speed))));
 			o.Alpha = c.a;
 			o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
 		}
