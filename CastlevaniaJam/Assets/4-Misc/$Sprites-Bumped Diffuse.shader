@@ -7,7 +7,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 		_Color ("Tint", Color) = (1,1,1,1)
 		[MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
 				_Cutoff ("Alpha Cutoff", Range (0,1)) = 0.5
-
+		speed("speed", Float) = 0
 	}
 
 	SubShader
@@ -37,6 +37,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 		sampler2D _MainTex;
 		sampler2D _BumpMap;
 		fixed4 _Color;
+		float speed;
 
 		struct Input
 		{
@@ -66,6 +67,27 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 		}
 		ENDCG
 	}
+
+	/*SubShader
+	{
+		Pass
+		{
+			CGPROGRAM
+
+			#include "UnityCG.cginc"
+			#pragma fragment frag 
+			#pragma vertex vert_img
+			
+			uniform sampler2D _MainTex;
+
+			float4 frag(v2f_img v) :COLOR
+			{
+				return tex2D(_MainTex, v.uv);
+			}
+
+			ENDCG
+		}
+	}*/
 
 Fallback "Transparent/Cutout/Diffuse"
 }

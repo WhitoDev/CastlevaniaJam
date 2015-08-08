@@ -73,6 +73,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyEffect: {fileID: 191298, guid: d78544d15a7b1c749bb6ac25a1bbd531, type: 2}
+  collideWith:
+    serializedVersion: 2
+    m_Bits: 1792
 --- !u!114 &11443058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,6 +146,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: collideWith.m_Bits
+      value: 1792
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

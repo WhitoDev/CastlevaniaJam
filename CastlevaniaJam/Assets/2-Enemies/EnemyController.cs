@@ -9,10 +9,11 @@ public class EnemyController : MonoBehaviour {
     public int totalHealth = 2;
     public int health = 2;
 
-    public float minDistanceToAttack = 2.0f;
-    private float xDistanceToPlayer;
+    private bool inAggroRange;
+    private bool gotHit;
 
     #region AnimationHashes
+    int hsState;
     int hsIdle = Animator.StringToHash("Base Layer.Skeleton_Idle");
     int hsThrowBone = Animator.StringToHash("Base Layer.Skeleton_Throw");
     #endregion
@@ -31,31 +32,25 @@ public class EnemyController : MonoBehaviour {
 		
 	void Update () 
     {
-        CheckPlayerProximity();
-        if(xDistanceToPlayer <= minDistanceToAttack)
+        hsState = animatorController.GetCurrentAnimatorStateInfo(0).fullPathHash;
+        if(gotHit)
         {
-            //Face Player if idle
-            int hsState = animatorController.GetCurrentAnimatorStateInfo(0).fullPathHash;
-            if(hsState == hsIdle)
-            {
-                float xScale =  Mathf.Sign(this.transform.position.x - GameManager.Instance.Player.transform.position.x);
-                transform.localScale = new Vector3(xScale, transform.localScale.y, transform.localScale.z);                
-                StartCoroutine(ThrowBone());
-            }
-
-
+            TakeDamage();
         }
+
+        if (hsState == hsIdle && inAggroRange)
+        {
+            float xScale = Mathf.Sign(this.transform.position.x - GameManager.Instance.Player.transform.position.x);
+            transform.localScale = new Vector3(xScale, transform.localScale.y, transform.localScale.z);
+            StartCoroutine(ThrowBone());
+        }        
         SetAnimations();
+        ResetTriggers();
     }
 
     void SetAnimations()
     {
         animatorController.SetBool("throwBoneTrigger", throwBoneTrigger); throwBoneTrigger = false;
-    }
-
-    void CheckPlayerProximity()
-    {
-        xDistanceToPlayer = Mathf.Abs( transform.position.x - GameManager.Instance.Player.transform.position.x);
     }
 
     IEnumerator ThrowBone()
@@ -76,11 +71,29 @@ public class EnemyController : MonoBehaviour {
         destroyEffect.Emit(3);
     }
 
+    void ResetTriggers()
+    {
+        inAggroRange = false;
+        gotHit = false;
+    }
+
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag == "PlayerWeapon")
+    }
+
+    void ChildTriggerStay2D(string gameObjName)
+    {
+        if (gameObjName == "AggroRange")
         {
-            TakeDamage();
+            inAggroRange = true;
+        }
+    }
+
+    void ChildTriggerEnter2D(string gameObjName)
+    {
+        if (gameObjName == "Sprite")
+        {
+            gotHit = true;
         }
     }
 }

@@ -131,6 +131,10 @@ Material:
         first:
           name: _Metallic
         second: 0
+      data:
+        first:
+          name: speed
+        second: 15
     m_Colors:
       data:
         first:

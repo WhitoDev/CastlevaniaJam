@@ -52,6 +52,20 @@ AnimationClip:
     - time: .266666681
       value: {fileID: 21300136, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
     - time: .283333331
+      value: {fileID: 21300132, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - time: .300000012
+      value: {fileID: 21300134, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - time: .316666663
+      value: {fileID: 21300136, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - time: .333333343
+      value: {fileID: 21300132, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - time: .349999994
+      value: {fileID: 21300134, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - time: .366666675
+      value: {fileID: 21300136, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - time: .383333325
+      value: {fileID: 21300132, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - time: .400000006
       value: {fileID: 21300138, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
     attribute: m_Sprite
     path: 
@@ -88,11 +102,18 @@ AnimationClip:
     - {fileID: 21300132, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
     - {fileID: 21300134, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
     - {fileID: 21300136, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - {fileID: 21300132, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - {fileID: 21300134, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - {fileID: 21300136, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - {fileID: 21300132, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - {fileID: 21300134, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - {fileID: 21300136, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
+    - {fileID: 21300132, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
     - {fileID: 21300138, guid: 74a12261217274142a3d43d6ee733dd4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .300000012
+    m_StopTime: .416666687
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -175,7 +196,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 3
     messageOptions: 0
-  - time: .283333331
+  - time: .400000006
     functionName: DeactivateHitbox
     data: 
     objectReferenceParameter: {fileID: 0}

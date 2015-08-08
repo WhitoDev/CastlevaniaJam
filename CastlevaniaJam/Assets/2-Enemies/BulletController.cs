@@ -4,6 +4,7 @@ using System.Collections;
 public class BulletController : MonoBehaviour 
 {
     public GameObject destroyEffect;
+    public LayerMask collideWith;
 
     void Start()
     {
@@ -14,13 +15,12 @@ public class BulletController : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D col)
     {
-        GameObject flame = Instantiate(destroyEffect, transform.position, Quaternion.identity) as GameObject;
-        Destroy(flame, 1f);        
-        if(col.tag == "Player")
+        if (((collideWith.value & (1 << col.gameObject.layer)) > 0))
         {
-
+            GameObject flame = Instantiate(destroyEffect, transform.position, Quaternion.identity) as GameObject;
+            Destroy(flame, 1f);
+            Destroy(this.gameObject);
         }
-        Destroy(this.gameObject);
     }
 
     IEnumerator SetToTrigger()

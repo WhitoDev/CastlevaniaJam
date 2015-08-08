@@ -14,7 +14,8 @@ public class PlayerScript : MonoBehaviour
     public float jumpVerticalForce = 1000f;
     public float jumpHorizontalForce = 200f;
     public float _gravityScale = 3f;
-
+    public float forceToAdd;
+    
     private bool isGrounded;
     private bool isCrouching;
     private bool whipAttackTrigger;
@@ -91,7 +92,7 @@ public class PlayerScript : MonoBehaviour
         /*}*/        
         CheckAnimationState();
         HandlePlayerInput();
-        RoundSpeed();
+        RoundSpeed();        
 
         if (activePlatform != null)
         {
@@ -124,8 +125,9 @@ public class PlayerScript : MonoBehaviour
         if (state == hsCrouch_Down || state == hsCrouch_Up || state == hsWhipAttack_Standing)
             canMove = false;
 
-        if (state == hsWhipAttack_Standing)
+        if (state == hsWhipAttack_Standing || state == hsJump_Up || state == hsFalling)
         {
+            canMove = false;
             canFlip = false;
             canJump = false;
         }
@@ -269,4 +271,32 @@ public class PlayerScript : MonoBehaviour
         canFlip = true;
     }
     
+    public void setForce(string force)
+    {
+        float resul;
+        if (float.TryParse(force, out resul))
+            forceToAdd = resul;
+    }
+
+    public void applyForce(string dir)
+    {
+        switch(dir)
+        {
+            case "up":
+                rigBody2D.AddForce(Vector2.up * forceToAdd);
+                break;
+
+            case "down":
+                rigBody2D.AddForce(-Vector2.up * forceToAdd);
+                break;
+
+            case "left":
+                rigBody2D.AddForce(Vector2.left * forceToAdd);
+                break;
+
+            case "right":
+                rigBody2D.AddForce(-Vector2.left * forceToAdd);
+                break;
+        }
+    }
 }
