@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour {
 
     private bool inAggroRange;
     private bool gotHit;
+    private bool isHit;
 
     #region AnimationHashes
     int hsState;
@@ -36,7 +37,7 @@ public class EnemyController : MonoBehaviour {
 	void Update () 
     {
         hsState = animatorController.GetCurrentAnimatorStateInfo(0).fullPathHash;
-        if(gotHit)
+        if (gotHit && !isHit)
         {
             StartCoroutine(TakeDamage());
         }
@@ -69,6 +70,7 @@ public class EnemyController : MonoBehaviour {
 
     IEnumerator TakeDamage()
     {
+        isHit = true;
         SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
         sr.material = gettingHitMaterial;
         destroyEffect.startSpeed = Mathf.Abs(destroyEffect.startSpeed) * transform.localScale.x;
@@ -76,6 +78,7 @@ public class EnemyController : MonoBehaviour {
         yield return new WaitForSeconds(0.3f);
         sr.material = normalMaterial;
         gotHit = false;
+        isHit = false;
         yield break;
     }
 

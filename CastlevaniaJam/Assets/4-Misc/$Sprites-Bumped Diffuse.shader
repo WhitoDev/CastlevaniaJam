@@ -31,7 +31,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 		
 
 		CGPROGRAM
-		#pragma surface surf Lambert alpha vertex:vert addshadow alphatest:_Cutoff 
+		#pragma surface surf NoLighting alpha vertex:vert addshadow alphatest:_Cutoff 
 		#pragma multi_compile DUMMY PIXELSNAP_ON 
 
 		sampler2D _MainTex;
@@ -45,6 +45,11 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 			float2 uv_BumpMap;
 			fixed4 color;
 		};
+
+		fixed4 LightingNoLighting(SurfaceOutput s, fixed3 lightDir, fixed atten)
+		{
+			return float4(0.0,0.0,0.0,0.0);
+		}
 		
 		void vert (inout appdata_full v, out Input o)
 		{
@@ -64,7 +69,10 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 			o.Albedo = c.rgb * (float3(1.0,1.0,1.0) + (speed * float3(0.0, -sin(_Time.w * speed), -cos(_Time.w * speed))));
 			o.Alpha = c.a;
 			o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
+			o.Emission = o.Albedo;
 		}
+
+
 		ENDCG
 	}
 

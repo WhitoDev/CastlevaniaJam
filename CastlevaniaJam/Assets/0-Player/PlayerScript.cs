@@ -125,9 +125,8 @@ public class PlayerScript : MonoBehaviour
         if (state == hsCrouch_Down || state == hsCrouch_Up || state == hsWhipAttack_Standing)
             canMove = false;
 
-        if (state == hsWhipAttack_Standing || state == hsJump_Up || state == hsFalling)
+        if (state == hsWhipAttack_Standing)
         {
-            canMove = false;
             canFlip = false;
             canJump = false;
         }
