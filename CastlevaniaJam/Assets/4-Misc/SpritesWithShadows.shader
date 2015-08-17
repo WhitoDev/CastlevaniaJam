@@ -3,11 +3,10 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 	Properties
 	{
 		[PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
-		_BumpMap ("Normalmap", 2D) = "bump" {}
 		_Color ("Tint", Color) = (1,1,1,1)
 		[MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
 				_Cutoff ("Alpha Cutoff", Range (0,1)) = 0.5
-		speed("speed", Float) = 0
+		speed ("Speed", Range(0, 100)) = 0
 	}
 
 	SubShader
@@ -16,22 +15,19 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 		{ 
 			"Queue"="Transparent" 
 			"IgnoreProjector"="True" 
-			"RenderType"="TransparentCutOut" 
+			"RenderType"="Transparent" 
 			"PreviewType"="Plane"
-			"CanUseSpriteAtlas"="True"
-			
+			"CanUseSpriteAtlas"="True"			
 		}
-			LOD 300
 
 
 		Cull Off
-		Lighting On
+		Lighting Off
 		ZWrite Off
-		Fog { Mode Off }
-		
+		Blend One OneMinusSrcAlpha
 
 		CGPROGRAM
-		#pragma surface surf NoLighting alpha vertex:vert addshadow alphatest:_Cutoff 
+		#pragma surface surf NoLighting vertex:vert addshadow nofog keepalpha alphatest:_Cutoff
 		#pragma multi_compile DUMMY PIXELSNAP_ON 
 
 		sampler2D _MainTex;
@@ -48,7 +44,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 
 		fixed4 LightingNoLighting(SurfaceOutput s, fixed3 lightDir, fixed atten)
 		{
-			return float4(0.0,0.0,0.0,0.0);
+			return float4(0.0,0.0,0.0,s.Alpha);
 		}
 		
 		void vert (inout appdata_full v, out Input o)
@@ -56,46 +52,22 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 			#if defined(PIXELSNAP_ON) && !defined(SHADER_API_FLASH)
 			v.vertex = UnityPixelSnap (v.vertex);
 			#endif
-			v.normal = float3(0,0,-1);
-			v.tangent =  float4(1, 0, 0, 1);
 			
 			UNITY_INITIALIZE_OUTPUT(Input, o);
-			o.color = _Color;
+			o.color = v.color * _Color;
 		}
 
 		void surf (Input IN, inout SurfaceOutput o)
 		{
 			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * IN.color;
-			o.Albedo = c.rgb * (float3(1.0,1.0,1.0) + (speed * float3(0.0, -sin(_Time.w * speed), -cos(_Time.w * speed))));
+			o.Albedo = c.rgb * c.a * (float3(1.0,1.0,1.0) + (speed * float3(0.0, -sin(_Time.w * speed), -cos(_Time.w * speed))));
 			o.Alpha = c.a;
-			o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
 			o.Emission = o.Albedo;
 		}
 
 
 		ENDCG
 	}
-
-	/*SubShader
-	{
-		Pass
-		{
-			CGPROGRAM
-
-			#include "UnityCG.cginc"
-			#pragma fragment frag 
-			#pragma vertex vert_img
-			
-			uniform sampler2D _MainTex;
-
-			float4 frag(v2f_img v) :COLOR
-			{
-				return tex2D(_MainTex, v.uv);
-			}
-
-			ENDCG
-		}
-	}*/
 
 Fallback "Transparent/Cutout/Diffuse"
 }

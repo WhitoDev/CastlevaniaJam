@@ -15,9 +15,15 @@ public class PlayerScript : MonoBehaviour
     public float jumpHorizontalForce = 200f;
     public float _gravityScale = 3f;
     public float forceToAdd;
-    
+    public int totalHealth = 3;
+    public Material hitTakenMaterial;
+    public Material invincibleMaterial;
+
+    private int health;
     private bool isGrounded;
     private bool isCrouching;
+    private bool isHitTrigger;
+    private bool isInvincible;
     private bool whipAttackTrigger;
     private bool canMove;
     private bool canFlip;
@@ -80,6 +86,7 @@ public class PlayerScript : MonoBehaviour
         rigBody2D = this.GetComponent<Rigidbody2D>();
         ColliderRef = GetComponent<BoxCollider2D>();
         activePlatform = null;
+        health = totalHealth;
     }
 
     void LateUpdate()
@@ -297,5 +304,37 @@ public class PlayerScript : MonoBehaviour
                 rigBody2D.AddForce(-Vector2.left * forceToAdd);
                 break;
         }
+    }
+
+    void OnCollisionEnter2D(int damage, string direction)
+    {
+        if(!isHitTrigger)
+        {
+            StartCoroutine(applyDamage());
+        }
+
+    }
+
+    IEnumerator applyDamage()
+    {
+        isHitTrigger = true;
+        canMove = false;        
+        int damage = 1;
+        string dir;
+        health -= damage;
+        rigBody2D.AddForce(new Vector2(1000, 1000));
+        isInvincible = true;
+        GetComponentInChildren<SpriteRenderer>().material = hitTakenMaterial;
+        yield return new WaitForSeconds(1);
+        GetComponentInChildren<SpriteRenderer>().material = invincibleMaterial;        
+        while (!isGrounded) 
+        {
+            yield return null;
+        }
+        canMove = true;
+        yield return new WaitForSeconds(2);
+        isInvincible = false;
+        isHitTrigger = false;
+        yield break;
     }
 }

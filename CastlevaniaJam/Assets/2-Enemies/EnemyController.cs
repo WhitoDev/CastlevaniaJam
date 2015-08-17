@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
+using UnityEditor;
 using System.Collections;
 
 public class EnemyController : MonoBehaviour {
 
     private Animator animatorController;
     public GameObject bullet;
-    public ParticleSystem destroyEffect;
+    public GameObject destroyEffect;
     public int totalHealth = 2;
-    public int health = 2;
+    public int health;
 
     public Material normalMaterial;
     public Material gettingHitMaterial;
@@ -32,6 +33,7 @@ public class EnemyController : MonoBehaviour {
         GetComponentInChildren<Renderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
         GetComponentInChildren<Renderer>().receiveShadows = false;
         animatorController = GetComponentInChildren<Animator>();
+        health = totalHealth;
     }
 		
 	void Update () 
@@ -71,10 +73,18 @@ public class EnemyController : MonoBehaviour {
     IEnumerator TakeDamage()
     {
         isHit = true;
+        health--;
         SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
         sr.material = gettingHitMaterial;
-        destroyEffect.startSpeed = Mathf.Abs(destroyEffect.startSpeed) * transform.localScale.x;
-        destroyEffect.Emit(3);
+
+        if (health <= 0)
+        {
+            var effect = Instantiate(destroyEffect, transform.position, transform.localScale.x > 0 ? Quaternion.identity : Quaternion.Euler(0,180,0)) as GameObject;
+            effect.GetComponent<ParticleSystem>().Emit(3);
+            Destroy(effect, 2);
+            Destroy(this.gameObject);
+        }
+
         yield return new WaitForSeconds(0.3f);
         sr.material = normalMaterial;
         gotHit = false;

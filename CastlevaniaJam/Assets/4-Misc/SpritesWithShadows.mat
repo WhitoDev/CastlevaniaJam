@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Clouds
-  m_Shader: {fileID: 4800000, guid: 6d0140a37bd1d974da0a108e60691155, type: 3}
+  m_Name: SpritesWithShadows
+  m_Shader: {fileID: 4800000, guid: 221c7c38f96cebc4d966945118cd91f8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -27,7 +27,7 @@ Material:
           name: _BumpMap
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
+          m_Scale: {x: 10, y: 10}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -93,6 +93,10 @@ Material:
         second: .5
       data:
         first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
           name: _Parallax
         second: .0199999996
       data:
@@ -102,7 +106,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0
+        second: .5
       data:
         first:
           name: _BumpScale
@@ -129,7 +133,7 @@ Material:
         second: 0
       data:
         first:
-          name: _EmissionScaleUI
+          name: speed
         second: 0
     m_Colors:
       data:
@@ -139,8 +143,4 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _EmissionColorUI
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .784313738, g: .784313738, b: .784313738, a: 1}
