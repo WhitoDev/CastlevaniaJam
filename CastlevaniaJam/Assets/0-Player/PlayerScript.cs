@@ -306,12 +306,13 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(int damage, string direction)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if(!isHitTrigger)
-        {
-            StartCoroutine(applyDamage());
-        }
+        //var bullet = col.gameObject.GetComponent<BulletController>();
+        //if(bullet != null && !isHitTrigger)
+        //{
+        //    StartCoroutine(applyDamage());
+        //}
 
     }
 
