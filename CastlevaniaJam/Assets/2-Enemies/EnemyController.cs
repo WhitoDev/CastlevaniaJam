@@ -102,17 +102,17 @@ public class EnemyController : MonoBehaviour {
     {
     }
 
-    void ChildTriggerStay2D(string gameObjName)
+    void ChildTriggerStay2D(object[] obj)
     {
-        if (gameObjName == "AggroRange")
+        if (obj[0].ToString() == "AggroRange")
         {
             inAggroRange = true;
         }
     }
 
-    void ChildTriggerEnter2D(string gameObjName)
+    void ChildTriggerEnter2D(object[] obj)
     {
-        if (gameObjName == "Sprite")
+        if (obj[0].ToString() == "Sprite")
         {
             if(!gotHit)
                 gotHit = true;
