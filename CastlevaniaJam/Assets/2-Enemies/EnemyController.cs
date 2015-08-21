@@ -2,7 +2,8 @@
 using UnityEditor;
 using System.Collections;
 
-public class EnemyController : MonoBehaviour {
+public class EnemyController : MonoBehaviour
+{
 
     private Animator animatorController;
     public GameObject bullet;
@@ -28,15 +29,15 @@ public class EnemyController : MonoBehaviour {
     #endregion
 
     [ExecuteInEditMode]
-	void Start () 
+    void Start()
     {
         GetComponentInChildren<Renderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
         GetComponentInChildren<Renderer>().receiveShadows = false;
         animatorController = GetComponentInChildren<Animator>();
         health = totalHealth;
     }
-		
-	void Update () 
+
+    void Update()
     {
         hsState = animatorController.GetCurrentAnimatorStateInfo(0).fullPathHash;
         if (gotHit && !isHit)
@@ -49,7 +50,7 @@ public class EnemyController : MonoBehaviour {
             float xScale = Mathf.Sign(this.transform.position.x - GameManager.Instance.Player.transform.position.x);
             transform.localScale = new Vector3(xScale, transform.localScale.y, transform.localScale.z);
             StartCoroutine(ThrowBone());
-        }        
+        }
         SetAnimations();
         ResetTriggers();
     }
@@ -79,7 +80,7 @@ public class EnemyController : MonoBehaviour {
 
         if (health <= 0)
         {
-            var effect = Instantiate(destroyEffect, transform.position, transform.localScale.x > 0 ? Quaternion.identity : Quaternion.Euler(0,180,0)) as GameObject;
+            var effect = Instantiate(destroyEffect, transform.position, transform.localScale.x > 0 ? Quaternion.identity : Quaternion.Euler(0, 180, 0)) as GameObject;
             effect.GetComponent<ParticleSystem>().Emit(3);
             Destroy(effect, 2);
             Destroy(this.gameObject);
@@ -102,19 +103,19 @@ public class EnemyController : MonoBehaviour {
     {
     }
 
-    void ChildTriggerStay2D(string gameObjName)
+    void ChildTriggerStay2D(object[] obj)
     {
-        if (gameObjName == "AggroRange")
+        if (obj[0].ToString() == "AggroRange")
         {
             inAggroRange = true;
         }
     }
 
-    void ChildTriggerEnter2D(string gameObjName)
+    void ChildTriggerEnter2D(object[] obj)
     {
-        if (gameObjName == "Sprite")
+        if (obj[0].ToString() == "Sprite")
         {
-            if(!gotHit)
+            if (!gotHit)
                 gotHit = true;
         }
     }

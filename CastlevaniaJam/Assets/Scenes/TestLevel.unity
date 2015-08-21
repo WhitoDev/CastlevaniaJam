@@ -87,6 +87,62 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &106156774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 106156775}
+  - 61: {fileID: 106156777}
+  - 114: {fileID: 106156776}
+  m_Layer: 9
+  m_Name: HurtBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &106156775
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106156774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2124559070}
+  m_RootOrder: 0
+--- !u!114 &106156776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106156774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2189e2bb2ac3284f958b43fc0723082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerWith:
+    serializedVersion: 2
+    m_Bits: 2048
+--- !u!61 &106156777
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106156774}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: .610000014, y: 1.34000003}
 --- !u!1001 &138625708
 Prefab:
   m_ObjectHideFlags: 0
@@ -866,7 +922,7 @@ Transform:
   m_Children:
   - {fileID: 1330223921}
   m_Father: {fileID: 2124559070}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!114 &389502654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -978,7 +1034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fitType: 0
-  targetPixelHeight: 326
+  targetPixelHeight: 639
   parallaxLayerCount: 2
   cameraZoom: 1
   pixelatedPostProcessing: 1
@@ -1024,9 +1080,9 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 1000
-  field of view: 53.9863129
+  field of view: 89.910408
   orthographic: 0
-  orthographic size: 5.09375
+  orthographic size: 9.984375
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4342,6 +4398,7 @@ Transform:
   m_LocalPosition: {x: -5.11999989, y: .579999983, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 106156775}
   - {fileID: 389502653}
   m_Father: {fileID: 0}
   m_RootOrder: 25
@@ -4365,8 +4422,8 @@ MonoBehaviour:
   _gravityScale: 3
   forceToAdd: 0
   totalHealth: 3
-  hitTakenMaterial: {fileID: 2100000, guid: d3f499f6d891b404cadb0370568d6053, type: 2}
-  invincibleMaterial: {fileID: 2100000, guid: ff0d3477dd6fae64aae4064a8a932882, type: 2}
+  hitTakenTint: {r: 1, g: 0, b: 0, a: 1}
+  invincibleTint: {r: 1, g: 1, b: 1, a: .746999979}
   animatorController: {fileID: 389502656}
   CollideWith:
     serializedVersion: 2

@@ -25,6 +25,14 @@ public class HitboxManager : MonoBehaviour
 
     public void DeactivateHitbox(int id)
     {
+        if(int == -1)
+        {
+            foreach(PolygonCollider2D col in WhipHitboxes)
+            {
+                col.enabled = false;
+            }
+            return;
+        }
         WhipHitboxes[id].enabled = false;
     }
 }
