@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using System.Collections;
 
 public class EnemyController : MonoBehaviour
@@ -18,6 +17,8 @@ public class EnemyController : MonoBehaviour
     private bool gotHit;
     private bool isHit;
 
+    private int thrownBones;
+
     #region AnimationHashes
     int hsState;
     int hsIdle = Animator.StringToHash("Base Layer.Skeleton_Idle");
@@ -35,6 +36,7 @@ public class EnemyController : MonoBehaviour
         GetComponentInChildren<Renderer>().receiveShadows = false;
         animatorController = GetComponentInChildren<Animator>();
         health = totalHealth;
+        thrownBones = 0;
     }
 
     void Update()
@@ -49,7 +51,7 @@ public class EnemyController : MonoBehaviour
         {
             float xScale = Mathf.Sign(this.transform.position.x - GameManager.Instance.Player.transform.position.x);
             transform.localScale = new Vector3(xScale, transform.localScale.y, transform.localScale.z);
-            StartCoroutine(ThrowBone());
+            StartCoroutine(ThrowBone());            
         }
         SetAnimations();
         ResetTriggers();
@@ -62,12 +64,19 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator ThrowBone()
     {
+        if(thrownBones >= 3) yield break;
         throwBoneTrigger = true;
         yield return new WaitForSeconds(0.2f);
         GameObject bone = Instantiate(bullet, transform.position + new Vector3(0, 1f, 0), Quaternion.identity) as GameObject;
-        bone.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f * -transform.localScale.x, 100f));
+        bone.GetComponent<Rigidbody2D>().AddForce(new Vector2(80f * -transform.localScale.x / (thrownBones + 1), 100f));
         bone.GetComponent<Rigidbody2D>().AddTorque(5f);
         Destroy(bone, 2f);
+        thrownBones++;
+        if (thrownBones >= 3)
+        {
+            yield return new WaitForSeconds(2);
+            thrownBones = 0;
+        }
         yield break;
     }
 
@@ -103,17 +112,17 @@ public class EnemyController : MonoBehaviour
     {
     }
 
-    void ChildTriggerStay2D(object[] obj)
+    void ChildTriggerStay2D(ChildColliderInfo info)
     {
-        if (obj[0].ToString() == "AggroRange")
+        if (info.colliderGameObj.name == "AggroRange")
         {
             inAggroRange = true;
         }
     }
 
-    void ChildTriggerEnter2D(object[] obj)
+    void ChildTriggerEnter2D(ChildColliderInfo info)
     {
-        if (obj[0].ToString() == "Sprite")
+        if (info.colliderGameObj.name == "Sprite")
         {
             if (!gotHit)
                 gotHit = true;

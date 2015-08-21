@@ -285,22 +285,22 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    void ChildTriggerEnter2D(object[] obj)
+    void ChildTriggerEnter2D(ChildColliderInfo info)
     {
-        if (obj[0].ToString() == "HurtBox")
+        if (info.colliderGameObj.name == "HurtBox")
         {
             if (!isInvincible)
             {
-                int dir = (int)Mathf.Sign(((Collider2D)obj[1]).GetComponent<Rigidbody2D>().velocity.x);
+                int dir = (int)Mathf.Sign(info.colliderTrigger.GetComponent<Rigidbody2D>().velocity.x);
                 if (dir == 0)
-                    dir = (int)Mathf.Sign(transform.position.x - ((Collider2D)obj[1]).gameObject.transform.position.x);
+                    dir = (int)Mathf.Sign(transform.position.x - info.colliderTrigger.gameObject.transform.position.x);
                 int damage = 1;
                 StartCoroutine(applyDamage(damage, dir));
             }
         }
     }
 
-    void ChildTriggerStay2D(object[] obj)
+    void ChildTriggerStay2D(ChildColliderInfo info)
     {
     }
 
