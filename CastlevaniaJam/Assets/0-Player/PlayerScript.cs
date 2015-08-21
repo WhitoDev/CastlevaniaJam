@@ -284,6 +284,7 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
     void ChildTriggerEnter2D(object[] obj)
     {
         if (obj[0].ToString() == "HurtBox")
@@ -298,6 +299,15 @@ public class PlayerScript : MonoBehaviour
             }
         }
     }
+=======
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        //var bullet = col.gameObject.GetComponent<BulletController>();
+        //if(bullet != null && !isHitTrigger)
+        //{
+        //    StartCoroutine(applyDamage());
+        //}
+>>>>>>> 93511a4dfa589c1c81dfe98180fc836ee333cd07
 
     void ChildTriggerStay2D(object[] obj)
     {

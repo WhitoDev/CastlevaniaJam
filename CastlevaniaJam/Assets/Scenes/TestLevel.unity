@@ -978,7 +978,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fitType: 0
+<<<<<<< HEAD
   targetPixelHeight: 639
+=======
+  targetPixelHeight: 326
+>>>>>>> 93511a4dfa589c1c81dfe98180fc836ee333cd07
   parallaxLayerCount: 2
   cameraZoom: 1
   pixelatedPostProcessing: 1
@@ -1024,9 +1028,9 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 1000
-  field of view: 89.910408
+  field of view: 53.9863129
   orthographic: 0
-  orthographic size: 9.984375
+  orthographic size: 5.09375
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1688,11 +1692,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.9000001
+      value: .300000012
       objectReference: {fileID: 0}
     - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.13000011
+      value: 1.65999997
       objectReference: {fileID: 0}
     - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1716,7 +1720,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 11442998, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
       propertyPath: pixelPerfectCamera
@@ -1724,11 +1728,11 @@ Prefab:
       objectReference: {fileID: 452014950}
     - target: {fileID: 482446, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.00156259537
+      value: .00468748808
       objectReference: {fileID: 0}
     - target: {fileID: 482446, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.00500011444
+      value: -.00374996662
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
@@ -1991,6 +1995,64 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1046590647}
+--- !u!1001 &1098819322
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7.11999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.52999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 410048, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11442998, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: pixelPerfectCamera
+      value: 
+      objectReference: {fileID: 452014950}
+    - target: {fileID: 482446, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.00281238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 482446, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .00125002861
+      objectReference: {fileID: 0}
+    - target: {fileID: 191744, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+      propertyPath: m_Name
+      value: Skeleton (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 909c52dfc9bee3843b55fdc14924d1b1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1148504380
 GameObject:
   m_ObjectHideFlags: 0
@@ -4363,9 +4425,15 @@ MonoBehaviour:
   jumpHorizontalForce: 200
   _gravityScale: 3
   forceToAdd: 0
+<<<<<<< HEAD
   totalHealth: 100
   hitTakenTint: {r: 1, g: 0, b: 0, a: 1}
   invincibleTint: {r: 1, g: 1, b: 1, a: .546999991}
+=======
+  totalHealth: 3
+  hitTakenMaterial: {fileID: 2100000, guid: d3f499f6d891b404cadb0370568d6053, type: 2}
+  invincibleMaterial: {fileID: 2100000, guid: ff0d3477dd6fae64aae4064a8a932882, type: 2}
+>>>>>>> 93511a4dfa589c1c81dfe98180fc836ee333cd07
   animatorController: {fileID: 389502656}
   CollideWith:
     serializedVersion: 2
