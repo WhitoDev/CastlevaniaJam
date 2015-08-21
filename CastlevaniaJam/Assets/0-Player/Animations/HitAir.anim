@@ -63,4 +63,11 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 1
-  m_Events: []
+  m_Events:
+  - time: .100000001
+    functionName: DeactivateHitbox
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: -1
+    messageOptions: 0
