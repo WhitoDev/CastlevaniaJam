@@ -25,7 +25,7 @@ public class HitboxManager : MonoBehaviour
 
     public void DeactivateHitbox(int id)
     {
-        if(int == -1)
+        if(id == -1)
         {
             foreach(PolygonCollider2D col in WhipHitboxes)
             {

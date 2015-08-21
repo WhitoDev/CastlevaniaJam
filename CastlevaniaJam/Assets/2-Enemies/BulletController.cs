@@ -13,7 +13,7 @@ public class BulletController : MonoBehaviour
         GetComponent<Renderer>().receiveShadows = false;
     }
 
-    void OnTriggerStay2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
         if (((collideWith.value & (1 << col.gameObject.layer)) > 0))
         {

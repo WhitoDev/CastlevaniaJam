@@ -128,7 +128,8 @@ public class PlayerScript : MonoBehaviour
         if (state == hsAirHit)
         {
             canMove = false;
-            canFlip = false;            
+            canFlip = false;
+            canJump = false;
         }
     }
     public void HandlePlayerInput()
