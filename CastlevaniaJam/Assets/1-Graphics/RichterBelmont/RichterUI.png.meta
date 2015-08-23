@@ -1,0 +1,1826 @@
+fileFormatVersion: 2
+guid: 76576938b5ef4b04b9868aa20b784d8f
+timeCreated: 1440341224
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RichterUI_0
+    21300002: RichterUI_2
+    21300004: RichterUI_3
+    21300006: RichterUI_4
+    21300008: RichterUI_5
+    21300010: RichterUI_6
+    21300012: RichterUI_7
+    21300014: RichterUI_8
+    21300016: RichterUI_9
+    21300018: RichterUI_10
+    21300020: RichterUI_11
+    21300022: RichterUI_12
+    21300024: RichterUI_13
+    21300026: RichterUI_26
+    21300028: RichterUI_27
+    21300030: RichterUI_28
+    21300032: RichterUI_29
+    21300034: RichterUI_30
+    21300036: RichterUI_31
+    21300038: RichterUI_32
+    21300040: RichterUI_33
+    21300042: RichterUI_34
+    21300044: RichterUI_35
+    21300046: RichterUI_36
+    21300048: RichterUI_37
+    21300050: RichterUI_38
+    21300052: RichterUI_39
+    21300054: RichterUI_40
+    21300056: RichterUI_41
+    21300058: RichterUI_42
+    21300060: RichterUI_43
+    21300062: RichterUI_44
+    21300064: RichterUI_45
+    21300066: RichterUI_66
+    21300068: RichterUI_67
+    21300070: RichterUI_68
+    21300072: RichterUI_69
+    21300074: RichterUI_70
+    21300076: RichterUI_71
+    21300078: RichterUI_72
+    21300080: RichterUI_73
+    21300082: RichterUI_74
+    21300084: RichterUI_75
+    21300086: RichterUI_87
+    21300088: RichterUI_88
+    21300090: RichterUI_89
+    21300092: RichterUI_90
+    21300094: RichterUI_91
+    21300096: RichterUI_92
+    21300098: RichterUI_93
+    21300100: RichterUI_94
+    21300102: RichterUI_95
+    21300104: RichterUI_96
+    21300106: RichterUI_97
+    21300108: RichterUI_98
+    21300110: RichterUI_111
+    21300112: RichterUI_112
+    21300114: RichterUI_113
+    21300116: RichterUI_114
+    21300118: RichterUI_115
+    21300120: RichterUI_116
+    21300122: RichterUI_117
+    21300124: RichterUI_118
+    21300126: RichterUI_119
+    21300128: RichterUI_120
+    21300130: RichterUI_131
+    21300132: RichterUI_132
+    21300134: RichterUI_133
+    21300136: RichterUI_134
+    21300138: RichterUI_135
+    21300140: RichterUI_136
+    21300142: RichterUI_137
+    21300144: RichterUI_138
+    21300146: RichterUI_139
+    21300148: RichterUI_140
+    21300150: RichterUI_141
+    21300152: RichterUI_142
+    21300154: RichterUI_143
+    21300156: RichterUI_144
+    21300158: RichterUI_159
+    21300160: RichterUI_160
+    21300162: RichterUI_161
+    21300164: RichterUI_162
+    21300166: RichterUI_163
+    21300168: RichterUI_164
+    21300170: RichterUI_165
+    21300172: RichterUI_166
+    21300174: RichterUI_167
+    21300176: RichterUI_168
+    21300178: RichterUI_169
+    21300180: RichterUI_170
+    21300182: RichterUI_183
+    21300184: RichterUI_184
+    21300186: RichterUI_185
+    21300188: RichterUI_186
+    21300190: RichterUI_187
+    21300192: RichterUI_188
+    21300194: RichterUI_189
+    21300196: RichterUI_190
+    21300198: RichterUI_191
+    21300200: RichterUI_192
+    21300202: RichterUI_193
+    21300204: RichterUI_194
+    21300206: RichterUI_207
+    21300208: RichterUI_208
+    21300210: RichterUI_209
+    21300212: RichterUI_210
+    21300214: RichterUI_211
+    21300216: RichterUI_212
+    21300218: RichterUI_213
+    21300220: RichterUI_214
+    21300222: RichterUI_215
+    21300224: RichterUI_216
+    21300226: RichterUI_217
+    21300228: RichterUI_218
+    21300230: RichterUI_232
+    21300232: RichterUI_233
+    21300234: RichterUI_234
+    21300236: RichterUI_235
+    21300238: RichterUI_236
+    21300240: RichterUI_237
+    21300242: RichterUI_238
+    21300244: RichterUI_239
+    21300246: RichterUI_240
+    21300248: RichterUI_241
+    21300250: RichterUI_242
+    21300252: RichterUI_243
+    21300254: RichterUI_257
+    21300256: RichterUI_258
+    21300258: RichterUI_259
+    21300260: RichterUI_260
+    21300262: RichterUI_261
+    21300264: RichterUI_262
+    21300266: RichterUI_263
+    21300268: RichterUI_264
+    21300270: RichterUI_265
+    21300272: RichterUI_266
+    21300274: RichterUI_267
+    21300276: RichterUI_268
+    21300278: RichterUI_269
+    21300280: RichterUI_270
+    21300282: RichterUI_287
+    21300284: RichterUI_288
+    21300286: RichterUI_292
+    21300288: RichterUI_293
+    21300290: RichterUI_294
+    21300292: RichterUI_295
+    21300294: RichterUI_296
+    21300296: RichterUI_297
+    21300298: RichterUI_298
+    21300300: RichterUI_299
+    21300302: RichterUI_300
+    21300304: RichterUI_301
+    21300306: RichterUI_302
+    21300308: RichterUI_313
+    21300310: RichterUI_314
+    21300312: RichterUI_315
+    21300314: RichterUI_316
+    21300316: RichterUI_319
+    21300318: RichterUI_321
+    21300320: RichterUI_286
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RichterUI_0
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 222
+        width: 94
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_11
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 212
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 202
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 202
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_27
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_29
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_30
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_31
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_33
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_35
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_36
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_37
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_38
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_39
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_40
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_41
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_42
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_43
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_44
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 205
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_67
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_68
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_69
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_70
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_71
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_72
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_73
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_74
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_75
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 198
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_87
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_88
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_89
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_90
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_91
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_92
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_93
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_94
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_95
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_96
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_97
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 182
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 182
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_111
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_112
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_113
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_114
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_115
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_116
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_117
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_118
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_119
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_120
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 185
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_131
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 83
+        width: 10
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_132
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 83
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_133
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 162
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_134
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_135
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_136
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_137
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_138
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_139
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_140
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_141
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_142
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_143
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_144
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 162
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_159
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 142
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_160
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_161
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_162
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_163
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_164
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_165
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_166
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_167
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_168
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_169
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_170
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 142
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_183
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 122
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_184
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_185
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_186
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_187
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_188
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_189
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_190
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_191
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_192
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_193
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_194
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 122
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_207
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 102
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_208
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_209
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_210
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_211
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_212
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_213
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_214
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_215
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_216
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_217
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_218
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 102
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_232
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 82
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_233
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_234
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_235
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_236
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_237
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_238
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_239
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_240
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_241
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_242
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 85
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_243
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 82
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_257
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 46
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_258
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 47
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_259
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 62
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_260
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_261
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_262
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_263
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_264
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_265
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_266
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_267
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_268
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_269
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_270
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 62
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_287
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 42
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_288
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 42
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_292
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 47
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_293
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_294
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_295
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_296
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_297
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_298
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_299
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_300
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_301
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_302
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 45
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_313
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_314
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_315
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 18
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_316
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 26
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_319
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 16
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_321
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RichterUI_286
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 83
+        width: 10
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
